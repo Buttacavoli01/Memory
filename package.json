@@ -1,0 +1,27 @@
+{
+  "name": "memory-master",
+  "version": "1.0.0",
+  "description": "### Live Link   https://buttacavoli01.github.io/memory/",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "browser-sync": "^2.26.3",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^6.0.0"
+  },
+  "devDependencies": {
+    "gulp-sass": "^4.0.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Buttacavoli01/memory.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Buttacavoli01/memory/issues"
+  },
+  "homepage": "https://github.com/Buttacavoli01/memory#readme"
+}
