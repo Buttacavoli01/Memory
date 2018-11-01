@@ -11,4 +11,4 @@
 
 forgot to remove stars when the moves get past 8 
 
-![alt text](mem-mas.png)
+![alt text](mem-masta.png)
