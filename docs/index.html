@@ -7,7 +7,7 @@
   <meta name="description" content="">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
   <link href="https://fonts.googleapis.com/css?family=Spicy+Rice" rel="stylesheet">
-  <link rel="stylesheet" href="css/app.css">
+  <link rel="stylesheet" href="styles/main.css">
 </head>
 
 <body>
@@ -21,7 +21,7 @@
         <li class="stars"><i class="fas fa-star"></i></li>
       </ul>
       <span class="column-2"><span class="move-counter">0 </span> Move(s)</span>
-      <span class="timer-container">Timer: <span class="timer"></span></span>
+      <span class="timer-container">Time: <span class="timer"></span></span>
       <i class="fas fa-sync-alt column-3" onclick="location.reload();"></i>
     </div>
 
@@ -81,11 +81,8 @@
       <div class="popup">
         <h2>Well Done!</h2>
         <a class="close" onclick="location.reload();">X</a>
-        <div class="pop-up-content-1">
-          Congrats!!
-        </div>
         <div class="pop-up-content-2">
-          <p>You won within <span id=finalMove> </span> moves </p>
+          <p>You matched all the cards in <span id=finalMove> </span>moves.</p>
           <p>in <span id=totalTime> </span> </p>
           <p>Rating: <span id=starRating></span></p>
         </div>
@@ -95,7 +92,7 @@
   </div>
   </div>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-  <script src="js/app.js"></script>
+  <script src="scripts/main.min.js"></script>
   </div>
 </body>
 
